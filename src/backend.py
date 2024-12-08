@@ -34,7 +34,7 @@ def process_excel(uploaded_file):
             except Exception as e:
                 erros.append(f"Erro na linha {index + 2}: {e}")
 
-        # Retorna tanto o resultado da validação, os erros, quanto o DataFrame
+        # Retorna tanto o resultado da validação, os erros
         return True, erros
 
      except Exception as e:
